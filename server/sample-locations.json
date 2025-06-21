@@ -1,0 +1,298 @@
+[
+    {
+        "id": "loc001",
+        "name": "Green Valley Dispensary",
+        "type": "Dispensary",
+        "address": {
+            "street": "123 Cannabis Lane",
+            "city": "Denver",
+            "state": "CO",
+            "zipCode": "80202",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 39.7392,
+            "longitude": -104.9903
+        },
+        "phone": "(303) 555-0123",
+        "email": "info@greenvalleydispensary.com",
+        "website": "https://greenvalleydispensary.com",
+        "hours": {
+            "monday": "9:00 AM - 9:00 PM",
+            "tuesday": "9:00 AM - 9:00 PM",
+            "wednesday": "9:00 AM - 9:00 PM",
+            "thursday": "9:00 AM - 9:00 PM",
+            "friday": "9:00 AM - 10:00 PM",
+            "saturday": "10:00 AM - 10:00 PM",
+            "sunday": "10:00 AM - 8:00 PM"
+        },
+        "rating": 4.8,
+        "reviews": 127,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+        "description": "Premium cannabis products in a welcoming atmosphere",
+        "tags": [
+            "medical",
+            "recreational",
+            "delivery"
+        ]
+    },
+    {
+        "id": "loc002",
+        "name": "Herb Haven",
+        "type": "Dispensary",
+        "address": {
+            "street": "456 Marijuana Street",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90210",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 34.0522,
+            "longitude": -118.2437
+        },
+        "phone": "(213) 555-0456",
+        "email": "hello@herbhaven.com",
+        "website": "https://herbhaven.com",
+        "hours": {
+            "monday": "8:00 AM - 10:00 PM",
+            "tuesday": "8:00 AM - 10:00 PM",
+            "wednesday": "8:00 AM - 10:00 PM",
+            "thursday": "8:00 AM - 10:00 PM",
+            "friday": "8:00 AM - 11:00 PM",
+            "saturday": "9:00 AM - 11:00 PM",
+            "sunday": "9:00 AM - 9:00 PM"
+        },
+        "rating": 4.6,
+        "reviews": 89,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
+        "description": "Wide selection of strains and edibles",
+        "tags": [
+            "recreational",
+            "edibles",
+            "concentrates"
+        ]
+    },
+    {
+        "id": "loc003",
+        "name": "Smoke & Mirrors",
+        "type": "Head Shop",
+        "address": {
+            "street": "789 Vape Avenue",
+            "city": "Portland",
+            "state": "OR",
+            "zipCode": "97201",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 45.5152,
+            "longitude": -122.6784
+        },
+        "phone": "(503) 555-0789",
+        "email": "contact@smokeandmirrors.com",
+        "website": "https://smokeandmirrors.com",
+        "hours": {
+            "monday": "10:00 AM - 8:00 PM",
+            "tuesday": "10:00 AM - 8:00 PM",
+            "wednesday": "10:00 AM - 8:00 PM",
+            "thursday": "10:00 AM - 8:00 PM",
+            "friday": "10:00 AM - 9:00 PM",
+            "saturday": "11:00 AM - 9:00 PM",
+            "sunday": "12:00 PM - 6:00 PM"
+        },
+        "rating": 4.4,
+        "reviews": 156,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+        "description": "Premium glassware and smoking accessories",
+        "tags": [
+            "glass",
+            "vape",
+            "accessories"
+        ]
+    },
+    {
+        "id": "loc004",
+        "name": "Nature's Medicine",
+        "type": "Dispensary",
+        "address": {
+            "street": "321 Organic Way",
+            "city": "Seattle",
+            "state": "WA",
+            "zipCode": "98101",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 47.6062,
+            "longitude": -122.3321
+        },
+        "phone": "(206) 555-0321",
+        "email": "info@naturesmedicine.com",
+        "website": "https://naturesmedicine.com",
+        "hours": {
+            "monday": "9:00 AM - 9:00 PM",
+            "tuesday": "9:00 AM - 9:00 PM",
+            "wednesday": "9:00 AM - 9:00 PM",
+            "thursday": "9:00 AM - 9:00 PM",
+            "friday": "9:00 AM - 10:00 PM",
+            "saturday": "10:00 AM - 10:00 PM",
+            "sunday": "10:00 AM - 8:00 PM"
+        },
+        "rating": 4.9,
+        "reviews": 203,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
+        "description": "Organic and sustainable cannabis solutions",
+        "tags": [
+            "organic",
+            "sustainable",
+            "medical"
+        ]
+    },
+    {
+        "id": "loc005",
+        "name": "Vape & Smoke Shop",
+        "type": "Head Shop",
+        "address": {
+            "street": "654 Cloud Street",
+            "city": "Las Vegas",
+            "state": "NV",
+            "zipCode": "89101",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 36.1699,
+            "longitude": -115.1398
+        },
+        "phone": "(702) 555-0654",
+        "email": "sales@vapesmokeshop.com",
+        "website": "https://vapesmokeshop.com",
+        "hours": {
+            "monday": "10:00 AM - 10:00 PM",
+            "tuesday": "10:00 AM - 10:00 PM",
+            "wednesday": "10:00 AM - 10:00 PM",
+            "thursday": "10:00 AM - 10:00 PM",
+            "friday": "10:00 AM - 11:00 PM",
+            "saturday": "11:00 AM - 11:00 PM",
+            "sunday": "11:00 AM - 9:00 PM"
+        },
+        "rating": 4.3,
+        "reviews": 78,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+        "description": "Vaping devices and traditional smoking supplies",
+        "tags": [
+            "vape",
+            "e-cig",
+            "accessories"
+        ]
+    },
+    {
+        "id": "loc006",
+        "name": "Medical Cannabis Center",
+        "type": "Dispensary",
+        "address": {
+            "street": "987 Healing Drive",
+            "city": "Phoenix",
+            "state": "AZ",
+            "zipCode": "85001",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 33.4484,
+            "longitude": -112.0740
+        },
+        "phone": "(602) 555-0987",
+        "email": "care@medicalcannabiscenter.com",
+        "website": "https://medicalcannabiscenter.com",
+        "hours": {
+            "monday": "8:00 AM - 8:00 PM",
+            "tuesday": "8:00 AM - 8:00 PM",
+            "wednesday": "8:00 AM - 8:00 PM",
+            "thursday": "8:00 AM - 8:00 PM",
+            "friday": "8:00 AM - 9:00 PM",
+            "saturday": "9:00 AM - 9:00 PM",
+            "sunday": "10:00 AM - 6:00 PM"
+        },
+        "rating": 4.7,
+        "reviews": 145,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
+        "description": "Professional medical cannabis consultation and products",
+        "tags": [
+            "medical",
+            "consultation",
+            "therapeutic"
+        ]
+    },
+    {
+        "id": "loc007",
+        "name": "Glass Gallery",
+        "type": "Head Shop",
+        "address": {
+            "street": "147 Artisan Road",
+            "city": "Austin",
+            "state": "TX",
+            "zipCode": "73301",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 30.2672,
+            "longitude": -97.7431
+        },
+        "phone": "(512) 555-0147",
+        "email": "art@glassgallery.com",
+        "website": "https://glassgallery.com",
+        "hours": {
+            "monday": "11:00 AM - 7:00 PM",
+            "tuesday": "11:00 AM - 7:00 PM",
+            "wednesday": "11:00 AM - 7:00 PM",
+            "thursday": "11:00 AM - 7:00 PM",
+            "friday": "11:00 AM - 8:00 PM",
+            "saturday": "12:00 PM - 8:00 PM",
+            "sunday": "12:00 PM - 6:00 PM"
+        },
+        "rating": 4.8,
+        "reviews": 92,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+        "description": "Handcrafted glass art and smoking accessories",
+        "tags": [
+            "glass",
+            "art",
+            "handcrafted"
+        ]
+    },
+    {
+        "id": "loc008",
+        "name": "CBD Wellness Store",
+        "type": "Dispensary",
+        "address": {
+            "street": "258 Wellness Boulevard",
+            "city": "Miami",
+            "state": "FL",
+            "zipCode": "33101",
+            "country": "USA"
+        },
+        "coordinates": {
+            "latitude": 25.7617,
+            "longitude": -80.1918
+        },
+        "phone": "(305) 555-0258",
+        "email": "wellness@cbdstore.com",
+        "website": "https://cbdwellnessstore.com",
+        "hours": {
+            "monday": "9:00 AM - 8:00 PM",
+            "tuesday": "9:00 AM - 8:00 PM",
+            "wednesday": "9:00 AM - 8:00 PM",
+            "thursday": "9:00 AM - 8:00 PM",
+            "friday": "9:00 AM - 9:00 PM",
+            "saturday": "10:00 AM - 9:00 PM",
+            "sunday": "10:00 AM - 7:00 PM"
+        },
+        "rating": 4.5,
+        "reviews": 167,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
+        "description": "Premium CBD products for health and wellness",
+        "tags": [
+            "cbd",
+            "wellness",
+            "health"
+        ]
+    }
+]

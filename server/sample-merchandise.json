@@ -1,0 +1,142 @@
+[
+    {
+        "id": "merch001",
+        "name": "Killah Cassidy T-Shirt",
+        "description": "Premium cotton t-shirt featuring the iconic Killah Cassidy logo",
+        "category": "Clothing",
+        "price": 29.99,
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "tshirt",
+            "clothing",
+            "branded"
+        ]
+    },
+    {
+        "id": "merch002",
+        "name": "Glass Pipe Collection",
+        "description": "Handcrafted glass pipes in various colors and designs",
+        "category": "Accessories",
+        "price": 45.00,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "glass",
+            "pipe",
+            "smoking"
+        ]
+    },
+    {
+        "id": "merch003",
+        "name": "Hemp Rolling Papers",
+        "description": "Premium hemp rolling papers, 50 sheets per pack",
+        "category": "Consumables",
+        "price": 8.99,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "papers",
+            "rolling",
+            "hemp"
+        ]
+    },
+    {
+        "id": "merch004",
+        "name": "CBD Oil Tincture",
+        "description": "Full-spectrum CBD oil, 1000mg, natural flavor",
+        "category": "CBD Products",
+        "price": 79.99,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "cbd",
+            "oil",
+            "tincture"
+        ]
+    },
+    {
+        "id": "merch005",
+        "name": "Grow Light Kit",
+        "description": "Complete LED grow light system for indoor cultivation",
+        "category": "Growing",
+        "price": 199.99,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=400&fit=crop",
+        "inStock": false,
+        "tags": [
+            "grow",
+            "light",
+            "indoor"
+        ]
+    },
+    {
+        "id": "merch006",
+        "name": "Killah Cassidy Hoodie",
+        "description": "Comfortable hoodie with embroidered Killah Cassidy design",
+        "category": "Clothing",
+        "price": 59.99,
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "hoodie",
+            "clothing",
+            "branded"
+        ]
+    },
+    {
+        "id": "merch007",
+        "name": "Vaporizer Pen",
+        "description": "Rechargeable vaporizer pen for concentrates and oils",
+        "category": "Accessories",
+        "price": 89.99,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "vape",
+            "pen",
+            "concentrates"
+        ]
+    },
+    {
+        "id": "merch008",
+        "name": "Organic Soil Mix",
+        "description": "Premium organic soil mix for cannabis cultivation",
+        "category": "Growing",
+        "price": 24.99,
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "soil",
+            "organic",
+            "growing"
+        ]
+    },
+    {
+        "id": "merch009",
+        "name": "Killah Cassidy Hat",
+        "description": "Snapback hat with embroidered Killah Cassidy logo",
+        "category": "Clothing",
+        "price": 24.99,
+        "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "hat",
+            "clothing",
+            "branded"
+        ]
+    },
+    {
+        "id": "merch010",
+        "name": "Grinder Set",
+        "description": "4-piece aluminum grinder with kief catcher",
+        "category": "Accessories",
+        "price": 34.99,
+        "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=400&fit=crop",
+        "inStock": true,
+        "tags": [
+            "grinder",
+            "aluminum",
+            "kief"
+        ]
+    }
+]
