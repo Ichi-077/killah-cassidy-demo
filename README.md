@@ -1,70 +1,212 @@
-# Getting Started with Create React App
+# 🌿 Where in the World is Killah Cassidy?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application for tracking cannabis dispensaries and merchandise across the globe. Built with React frontend and Node.js backend with MongoDB integration.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **📍 Dispensary Tracking**: Browse and discover cannabis dispensaries worldwide
+- **🛍️ Merchandise Catalog**: Explore exclusive Killah Cassidy merchandise
+- **📱 QR Code System**: Scan QR codes at locations for prize codes and reviews
+- **🌟 Community Reviews**: Rate and review dispensaries
+- **📱 Mobile Responsive**: Beautiful design that works on all devices
+- **🎨 Gothic Theme**: Unique dark aesthetic with purple accents
+- **🔐 User Authentication**: Login/signup system for personalized experience
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- **React 18** - Modern UI framework
+- **React Router** - Client-side routing
+- **CSS3** - Custom styling with gothic theme
+- **Font Awesome** - Icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Backend
+- **Node.js** - Server runtime
+- **Express.js** - Web framework
+- **MongoDB** - Database
+- **Mongoose** - ODM for MongoDB
 
 ### Deployment
+- **Vercel** - Frontend hosting
+- **Railway** - Backend hosting
+- **MongoDB Atlas** - Cloud database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📁 Project Structure
 
-### `npm run build` fails to minify
+```
+canna-prize-tracker/
+├── public/                 # Static files
+├── src/                    # React frontend
+│   ├── components/         # Reusable components
+│   ├── pages/             # Page components
+│   └── config.js          # API configuration
+├── server/                 # Node.js backend
+│   ├── models/            # MongoDB models
+│   ├── routes/            # API routes
+│   └── index.js           # Server entry point
+├── build/                  # Production build
+└── README.md              # This file
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- MongoDB database
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-url>
+   cd canna-prize-tracker
+   ```
+
+2. **Install frontend dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Install backend dependencies**
+   ```bash
+   cd server
+   npm install
+   cd ..
+   ```
+
+4. **Set up environment variables**
+   Create a `.env` file in the server directory:
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   PORT=5000
+   ```
+
+5. **Start the backend server**
+   ```bash
+   cd server
+   node index.js
+   ```
+
+6. **Start the frontend (in a new terminal)**
+   ```bash
+   npm start
+   ```
+
+7. **Open your browser**
+   Navigate to `http://localhost:3000`
+
+## 🌐 Deployment
+
+### Option 1: Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel
+```
+
+### Option 2: Netlify + Railway
+1. **Frontend**: Deploy to Netlify
+2. **Backend**: Deploy to Railway
+3. **Update**: `netlify.toml` with your Railway backend URL
+
+### Environment Variables
+Set these in your hosting platform:
+- `MONGODB_URI`: Your MongoDB connection string
+- `NODE_ENV`: `production`
+
+## 📱 API Endpoints
+
+### Locations
+- `GET /api/locations` - Get all locations
+- `GET /api/locations/:id` - Get specific location
+- `POST /api/locations/submit` - Submit new location
+- `POST /api/locations/:id/prize-code` - Generate prize code
+
+### Merchandise
+- `GET /api/merchandise` - Get all merchandise
+- `POST /api/merchandise` - Add new merchandise
+
+### Reviews
+- `POST /api/locations/reviews` - Submit review
+
+## 🎨 Design Features
+
+- **Gothic Theme**: Dark background with purple accents
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Hamburger Menu**: Mobile-friendly navigation
+- **Black Footer**: Professional footer with contact information
+- **Custom Fonts**: UnifrakturMaguntia for gothic titles
+
+## 🔧 Development
+
+### Available Scripts
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run tests
+- `npm run eject` - Eject from Create React App
+
+### Code Style
+- ESLint configuration included
+- Prettier formatting
+- Consistent naming conventions
+
+## 📊 Database Schema
+
+### Location Model
+```javascript
+{
+  name: String,
+  type: String,
+  description: String,
+  address: {
+    street: String,
+    city: String,
+    state: String,
+    zipCode: String
+  },
+  phone: String,
+  website: String,
+  hours: Object,
+  rating: Number,
+  reviews: Number,
+  tags: [String],
+  image: String
+}
+```
+
+### Merchandise Model
+```javascript
+{
+  name: String,
+  description: String,
+  price: Number,
+  category: String,
+  image: String,
+  inStock: Boolean
+}
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+
+- **Killah Cassidy** - The mysterious figure behind the brand
+- **Development Team** - Building the digital experience
+
+## 🆘 Support
+
+For support, email info@killahcassidy.com or create an issue in this repository.
+
+---
+
+**Where in the World is Killah Cassidy?** 🌍✨
