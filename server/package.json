@@ -1,6 +1,7 @@
 {
-  "name": "server",
+  "name": "killah-cassidy-backend",
   "version": "1.0.0",
+  "description": "Backend API for Killah Cassidy cannabis dispensary tracker",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -8,13 +9,25 @@
     "seed": "node seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cannabis",
+    "dispensary",
+    "api",
+    "mongodb",
+    "express"
+  ],
+  "author": "Killah Cassidy Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
